@@ -249,7 +249,6 @@ class MainMenu:
             self.screen.blit(title, title_rect)
 
             buttons = [(single_btn, "Single Player", (0, 100, 200)),
-                       (multi_btn, "Multiplayer", (0, 100, 200)),
                        (quit_btn, "Quit", (100, 100, 100))]
 
             for btn, text, color in buttons:
